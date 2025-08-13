@@ -103,7 +103,7 @@ EXTENSION OS_DETECTION
                 ENTER
                 STRING no led response
                 ENTER
-                STRING prediciton: MacOS
+                STRING prediction: MacOS
             END_IF_DEFINED
             $_OS = MACOS
         END_IF
@@ -140,7 +140,7 @@ EXTENSION OS_DETECTION
                             ENTER
                             STRING no numlock led
                             ENTER
-                            STRING prediciton: ChromeOS
+                            STRING prediction: ChromeOS
                         END_IF_DEFINED
                         $_OS = CHROMEOS
                     ELSE
@@ -161,7 +161,7 @@ EXTENSION OS_DETECTION
                                 ENTER
                                 STRING scrolllock led on
                                 ENTER
-                                STRING prediciton: Android
+                                STRING prediction: Android
                             END_IF_DEFINED
                             $_OS = ANDROID
                         ELSE
